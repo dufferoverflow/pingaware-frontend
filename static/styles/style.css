@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pingaware-tabbed {
+    background-color: blue;
+    height: 5%;
+}
+
+.pingaware-navbar {
+    background-color: #6c757d;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    height: 95%;
+    float: left;
+}
+
+.pingaware-warning {
+    background-color: #ffc107;
+    height: 3%;
+}
+
+.pingaware-time {
+    height: 3%;
+    padding-right: 1%;
+}
+
+.pingaware-main-content {
+    overflow-y: auto;
+    height: 89%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.pingaware-subnet-container {
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    float: left;
+}
